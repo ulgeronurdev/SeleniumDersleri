@@ -20,7 +20,7 @@ public class C04_DriverNavigateMethodlari {
         // geriye testotomasyonu sayfasina donun
         driver.navigate().back();
 
-        Thread.sleep(1000);
+        Thread.sleep(1000); 
 
         // yeniden wisequarter sayfasina gidin
         driver.navigate().forward();
