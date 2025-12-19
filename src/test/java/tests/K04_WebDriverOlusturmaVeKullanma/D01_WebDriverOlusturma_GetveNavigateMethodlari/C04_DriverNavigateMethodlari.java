@@ -1,4 +1,4 @@
-package K04_WebDriverOlusturmaVeKullanma.D01_WebDriverOlusturma_GetveNavigateMethodlari;
+package tests.K04_WebDriverOlusturmaVeKullanma.D01_WebDriverOlusturma_GetveNavigateMethodlari;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,7 +20,7 @@ public class C04_DriverNavigateMethodlari {
         // geriye testotomasyonu sayfasina donun
         driver.navigate().back();
 
-        Thread.sleep(1000); 
+        Thread.sleep(1000);
 
         // yeniden wisequarter sayfasina gidin
         driver.navigate().forward();
