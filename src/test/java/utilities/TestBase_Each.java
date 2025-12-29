@@ -22,5 +22,6 @@ public class TestBase_Each {
     @AfterEach
     public void teardown(){
         driver.quit();
+        
     }
 }
